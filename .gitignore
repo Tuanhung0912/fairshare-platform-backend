@@ -1,0 +1,129 @@
+# Spring Initializr metadata
+HELP.md
+
+# Maven / Java build output
+target/
+build/
+out/
+*.class
+*.war
+*.ear
+*.nar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+
+# Test reports / coverage
+.coverage/
+coverage/
+jacoco.exec
+*.ec
+
+# Logs / runtime diagnostics
+logs/
+*.log
+*.pid
+*.seed
+*.trace
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+src/main/resources/application-local.yaml
+src/main/resources/application-*.local.properties
+src/main/resources/application-*.local.yml
+src/main/resources/application-*.local.yaml
+config/application-local.properties
+config/application-local.yml
+config/application-local.yaml
+config/application-*.local.properties
+config/application-*.local.yml
+config/application-*.local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+secrets.properties
+secrets.yml
+secrets.yaml
+credentials.properties
+credentials.yml
+credentials.yaml
+
+# Keys, certificates, and keystores
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+*.gpg
+*.asc
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+
+# Local databases / dumps
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+
+# IDEs and editors
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle cache, in case Gradle tooling is used locally
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
